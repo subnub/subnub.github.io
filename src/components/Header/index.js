@@ -15,12 +15,14 @@ class HeaderContainer extends React.Component {
 
         console.log("about click")
         this.props.dispatch(scrollToBottom());
-        history.push("/#/");
+        // history.push("/#/");
+        window.open("https://subnub.github.io/#/");
         // window.scrollTo(0,30000);
     }
 
     homeClick = () => {
-        history.push("/")
+        // history.push("/")
+        window.open("https://subnub.github.io/#/");
     }
 
     githubClick = () => {
@@ -33,7 +35,7 @@ class HeaderContainer extends React.Component {
         console.log("project click");
         // history.push("/projects")
         window.open("https://subnub.github.io/#/projects");
-        
+
     }
 
     menuClick = () => {
@@ -44,7 +46,8 @@ class HeaderContainer extends React.Component {
 
     contactClick = () => {
         this.props.dispatch(hideSideBar());
-        history.push("/#/contact")
+        //history.push("/#/contact")
+        window.open("https://subnub.github.io/#/contacts");
     }
 
     render() {

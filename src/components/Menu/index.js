@@ -21,13 +21,15 @@ class MenuContainer extends React.Component {
         this.props.dispatch(hideSideBar());
         console.log("about click")
         this.props.dispatch(scrollToBottom());
-        history.push("/");
+        // history.push("/");
+        window.open("https://subnub.github.io/#/");
         // window.scrollTo(0,30000);
     }
 
     homeClick = () => {
         this.props.dispatch(hideSideBar());
-        history.push("/")
+        //history.push("/")
+        window.open("https://subnub.github.io/#/");
     }
 
     githubClick = () => {
@@ -41,12 +43,14 @@ class MenuContainer extends React.Component {
         this.props.dispatch(hideSideBar());
         this.props.dispatch(resetSelectedItem());
         console.log("project click");
-        history.push("/projects")
+        // history.push("/projects")
+        window.open("https://subnub.github.io/#/projects");
     }
 
     contactClick = () => {
         this.props.dispatch(hideSideBar());
-        history.push("/contact")
+        // history.push("/contact")
+        window.open("https://subnub.github.io/#/contact");
     }
 
     render() {

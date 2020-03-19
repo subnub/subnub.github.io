@@ -15,7 +15,8 @@ class HomepageContainer extends React.Component {
 
     projectClick = () => {
 
-        history.push("/projects")
+        //history.push("/projects")
+        window.open("https://subnub.github.io/#/projects");
     }
 
     componentDidMount = () => {
