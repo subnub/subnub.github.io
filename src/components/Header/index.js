@@ -31,7 +31,8 @@ class HeaderContainer extends React.Component {
 
         this.props.dispatch(resetSelectedItem());
         console.log("project click");
-        history.push("/projects")
+        // history.push("/projects")
+        window.open("https://subnub.github.io/#/projects");
     }
 
     menuClick = () => {
