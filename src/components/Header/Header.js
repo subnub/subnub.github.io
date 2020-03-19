@@ -6,7 +6,7 @@ const Header = (props) => (
 
         <div className="header__icon__wrapper">
         
-            <img onClick={props.homeClick} className="header__icon" src="../images/logo.png"/>
+            <img onClick={props.homeClick} className="header__icon" src="https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/logo.png"/>
 
         </div>
     
