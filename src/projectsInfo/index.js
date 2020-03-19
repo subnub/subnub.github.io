@@ -19,7 +19,7 @@ export default {
     portfolioColor: "#282658",
     portfolioTitle: "My Web Portfolio",
     portfolioDesc: "My Web Portfolio is based on React, and Redux.",
-    portfolioGit: "",
+    portfolioGit: "https://github.com/subnub/subnub.github.io",
     portfolioImage: "https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/portfolio.png",
     portfolioLongDesc: "My Web Portfolio demonstrates my ability to build an elegant looking Web Application, it uses React, and Redux",
 
