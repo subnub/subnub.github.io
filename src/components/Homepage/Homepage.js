@@ -14,6 +14,7 @@ const Homepage = (props) => (
 
                 </div>
 
+                
                 <div className="about__wrapper">
 
                     <div className="about__box">
