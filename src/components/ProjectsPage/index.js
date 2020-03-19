@@ -14,7 +14,7 @@ class ProjectsPageContainer extends React.Component {
 
         this.props.dispatch(resetSelectedItem());
         //history.push("/projects")
-        window.open("https://subnub.github.io/#/projects");
+        window.location.replace("https://subnub.github.io/#/projects");
     }
 
     gitButton = (link) => {
