@@ -1,0 +1,131 @@
+.homepage__wrapper {
+    width: 100vw;
+    height: 100%; //100vh;
+    overflow: scroll;
+    background: #1a1a1a;
+}
+
+.homepage__intro__wrapper {
+
+    width: 100%;
+    height: 100vh;
+    background: #1a1a1a;
+    overflow: hidden;
+}
+
+.homepage__intro__wallpaper {
+
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    max-width: 100%;
+    // border-radius: 6px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.about__wrapper {
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    @media (max-width: $desktop-breakpoint -  1rem) {
+        height: 436px;
+        margin-top: 10px;
+    }
+}
+
+.about__box {
+
+    width: 70%;
+    height: 350px;
+    background: #f4f4f4;
+    box-shadow: black;
+    -webkit-box-shadow: 0 11px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 11px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: $desktop-breakpoint -  1rem) {
+        width: 95%;
+        height: 436px;
+    }
+}
+
+.about__title__wrapper {
+
+    width: 100%;
+    height: 100px;
+    background: #a27afe;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid #dadce0;
+}
+
+.about__title {
+
+    font-size: 31px;
+    color: white;
+    font-weight: 340;
+}
+
+.about__body__wrapper {
+
+    width: 100%;
+    height: 61px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+
+    @media (max-width: $desktop-breakpoint -  1rem) {
+        height: 91px;
+    }
+}
+
+.about__body__title {
+
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.about__body__subtitle {
+
+    margin: 10px;
+    font-weight: 200;
+}
+
+.homepage__projects__button__wrapper {
+
+    width: 100%;
+    height: 61px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.homepage__projects__button {
+
+    font-weight: 500;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+  
+    letter-spacing: 2px;
+    margin-left: 32px;
+    box-sizing: border-box;
+    position: relative;
+    background: #f16a55;
+    color: white;
+    margin-right: 5px;
+    -webkit-box-shadow: 0 11px 8px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+}
