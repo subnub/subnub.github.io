@@ -9,7 +9,7 @@ const Menu = (props) => (
 
             <div className="menu__header__wrapper">
                 <img className="menu__close" 
-                    src="../images/close.png"
+                    src="https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/close.png"
                     onClick={props.closeMenu} />
             </div>
 

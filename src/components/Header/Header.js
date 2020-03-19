@@ -16,7 +16,7 @@ const Header = (props) => (
             <button className="header__button" onClick={props.aboutClick}>About</button>
             <button className="header__button" onClick={props.projectClick}>Projects</button>
             <button className="header__button" onClick={props.contactClick}>Contact</button>
-            <img className="header__menu" onClick={props.menuClick} src="../images/menu.png"/>
+            <img className="header__menu" onClick={props.menuClick} src="https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/menu.png"/>
 
         </div>
 

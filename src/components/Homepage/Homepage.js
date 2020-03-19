@@ -10,7 +10,7 @@ const Homepage = (props) => (
 
                 <div className="homepage__intro__wrapper">
                 
-                    <img className="homepage__intro__wallpaper" src="../images/space.jpg"/>
+                    <img className="homepage__intro__wallpaper" src="https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/space.jpg"/>
 
                 </div>
 

@@ -27,7 +27,7 @@ const ProjectItem = ({title = "Default Title", body="Default body", color="#f16a
         
             <div className="project__item__more__wrapper">
 
-                <img onClick={() => infoClick(title, body, color, github, image, longBody, demo)} className="project__item__info" src="../images/info.png"/>
+                <img onClick={() => infoClick(title, body, color, github, image, longBody, demo)} className="project__item__info" src="https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/info.png"/>
                 {/*make it so pressing info changes MyProjects, title, and body, instead of a popup window*/}
             </div>
 
