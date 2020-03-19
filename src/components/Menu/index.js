@@ -22,14 +22,16 @@ class MenuContainer extends React.Component {
         console.log("about click")
         this.props.dispatch(scrollToBottom());
         // history.push("/");
-        window.open("https://subnub.github.io/#/");
+       // window.open("https://subnub.github.io/#/");
+        window.location.replace("https://subnub.github.io/#/");
         // window.scrollTo(0,30000);
     }
 
     homeClick = () => {
         this.props.dispatch(hideSideBar());
         //history.push("/")
-        window.open("https://subnub.github.io/#/");
+        //window.open("https://subnub.github.io/#/");
+        window.location.replace("https://subnub.github.io/#/");
     }
 
     githubClick = () => {
@@ -44,13 +46,15 @@ class MenuContainer extends React.Component {
         this.props.dispatch(resetSelectedItem());
         console.log("project click");
         // history.push("/projects")
-        window.open("https://subnub.github.io/#/projects");
+        //window.open("https://subnub.github.io/#/projects");
+        window.location.replace("https://subnub.github.io/#/projects");
     }
 
     contactClick = () => {
         this.props.dispatch(hideSideBar());
         // history.push("/contact")
-        window.open("https://subnub.github.io/#/contact");
+        //window.open("https://subnub.github.io/#/contact");
+        window.location.replace("https://subnub.github.io/#/contact");
     }
 
     render() {
