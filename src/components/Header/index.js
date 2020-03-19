@@ -33,6 +33,7 @@ class HeaderContainer extends React.Component {
         console.log("project click");
         // history.push("/projects")
         window.open("https://subnub.github.io/#/projects");
+        
     }
 
     menuClick = () => {
