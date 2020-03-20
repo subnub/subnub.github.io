@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import {connect} from "react-redux";
 import {history} from "../../routers/AppRouter";
-import {scrollToBottom, showSideBar, hideSideBar} from "../../actions/main"
+import {scrollToBottom, showSideBar, hideSideBar, showHeader} from "../../actions/main"
 import {resetSelectedItem} from "../../actions/selected"
 
 class HeaderContainer extends React.Component {
@@ -24,7 +24,12 @@ class HeaderContainer extends React.Component {
     homeClick = () => {
         // history.push("/")
         //window.open("https://subnub.github.io/#/");
+        this.props.dispatch(showHeader());
+        window.scrollTo(0,0);
+        console.log("home click")
         window.location.replace("https://subnub.github.io/#/");
+        window.scrollTo(0,0);
+        
     }
 
     githubClick = () => {
