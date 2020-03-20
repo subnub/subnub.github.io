@@ -91,6 +91,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    // border: none;
     justify-content: space-between;
 }
 
@@ -111,6 +112,7 @@
     background: none;
     color: white;
     padding: 5px;
+    border: 1px solid white;
     // margin-right: 5px;
 
 }
