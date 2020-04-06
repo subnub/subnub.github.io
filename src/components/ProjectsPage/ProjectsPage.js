@@ -49,6 +49,15 @@ const ProjectsPage = (props) => (
                             image={projectInfo.portfolioImage}
                             longBody={projectInfo.portfolioLongDesc}
                             />
+                        <ProjectItem
+                            title={projectInfo.homeworkTitle}
+                            color={projectInfo.homeworkColor}
+                            body={projectInfo.homeworkDesc}
+                            github={projectInfo.homeworkGit}
+                            image={projectInfo.homeworkImage}
+                            longBody={projectInfo.homeworkLongDesc}
+                            demo={projectInfo.homeworkDemo}
+                            />
                         <ProjectItem 
                             title={projectInfo.taskTitle}
                             color={projectInfo.taskColor}
