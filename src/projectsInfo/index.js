@@ -5,7 +5,7 @@ export default {
     myDriveDesc: "MyDrive is a Node.js, React, and Mongo.db Google Drive Clone.",
     myDriveGit: "https://github.com/subnub/myDrive",
     myDriveImage: "https://raw.githubusercontent.com/subnub/subnub.github.io/master/build/images/mydrive.png",
-    myDriveLongDesc: "MyDrive is an Open-Source full-stack application I created. MyDrive clearly demonstrates my ability to break applications into small coherent pieces. MyDrive is relatively popular on Github, receiving over 900 stars, 100 forks, and 24,000 views. MyDrive is build with Node.js, React, Mongo.db, and also uses tools like Jest. MyDrive also follows a strict design pattern, throught the whole application, making it easy to read, debug, and add onto later.",
+    myDriveLongDesc: "MyDrive is an Open-Source full-stack application I created. MyDrive clearly demonstrates my ability to break applications into small coherent pieces. MyDrive is relatively popular on Github, receiving over 1,600 stars, 180 forks, and 50,000+ views. MyDrive is build with Node.js, React, Mongo.db, and also uses tools like Jest. MyDrive now has more features than ever, including Amazon S3, and the Filesystem support, letting users choose what backend they would like to use. And with an upcoming update including a brand new UI, Google Drive support, email verification, subscription payments through stripe, and much more!",
     myDriveDemo: "https://mydrive-demo.herokuapp.com/",
 
     expensifyColor: "#a7132d",
@@ -45,4 +45,11 @@ export default {
     homeworkImage: "https://raw.githubusercontent.com/subnub/subnub.github.io/master/public/images/chrome_image_main.jpg",
     homeworkLongDesc: "Homework Helper is an Open Source Chome Extension, it allows users to right click on highlighted text/questions, and automatically searches for answers using Quizlet. These answers are then stored in a nice scrollable card list UI, where users can copy answers, or even launch the Quizlet page the answer was found from!\n Homework Helper is build with just vanilla Javascript, no modules were used, this project demostates my ability to work with plain Javascript, as well as tools just as HTML Temlplates.",
     homeworkDemo: "https://chrome.google.com/webstore/detail/homework-helper/dgfigglmnhnamfjbccjoiomogdmglnpa",
+
+    piedColor: "#fe1f7c",
+    piedTitle: "Pied Piper",
+    piedDesc: "A commercial freelancing project based on myDrive.",
+    piedGit: "https://github.com/ashxsf/piedpiper",
+    piedImage: "https://raw.githubusercontent.com/subnub/subnub.github.io/update-1/public/images/pied-screenshot.png",
+    piedLongSec: "Pied Piper is a freelancing project I got hired to create, it is based on my pervious project myDrive. With some added new features such as subscriptions, Google Drive support, email verification, a new UI, and much more. Although I was hired for this project, I did handle most of the process myself, which included breaking the project into milestones, incorporating the new UI which was sent by a designer, and all the new backend featues. Although this project is currently private, it will be launched commercially in the coming weeks. "
 }
