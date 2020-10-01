@@ -33,6 +33,15 @@ const ProjectsPage = (props) => (
                             demo={projectInfo.myDriveDemo}/>
 
                         <ProjectItem 
+                            title={projectInfo.piedTitle}
+                            color={projectInfo.piedColor}
+                            body={projectInfo.piedDesc}
+                            github={projectInfo.piedGit}
+                            image={projectInfo.piedImage}
+                            longBody={projectInfo.piedLongSec}
+                        />
+
+                        <ProjectItem 
                             title={projectInfo.expensifyTitle}
                             color={projectInfo.expensifyColor}
                             body={projectInfo.expensifyDesc}
